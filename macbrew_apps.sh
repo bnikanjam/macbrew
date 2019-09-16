@@ -6,7 +6,8 @@ brew cask install font-inconsolata
 
 # Install Powerlevel9k theme
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
-
+# Install autosuggestions plugin for zsh 
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 
 # Install Brew Packages
@@ -15,6 +16,7 @@ brew install tree
 
 # Install MacOS Applications
 brew cask install docker
+brew tap heroku/brew && brew install heroku
 brew cask install google-chrome
 brew cask install firefox
 brew cask install visual-studio-code

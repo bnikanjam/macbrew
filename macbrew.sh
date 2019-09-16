@@ -33,15 +33,3 @@ brew cask install font-inconsolata
 # Install Powerlevel9k theme 
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 
-
-
-# Install Brew Packages
-brew install tree
-
-
-# Install MacOS Applications
-brew cask install google-chrome
-brew cask install firefox
-brew cask install visual-studio-code
-brew cask install pycharm
-brew cask install virtualbox
