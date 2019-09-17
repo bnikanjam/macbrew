@@ -23,6 +23,7 @@ brew cask install visual-studio-code
 brew cask install pycharm
 brew cask install dropbox
 brew cask install virtualbox
+brew cask install brave-browser
 
 
 brew cleanup
