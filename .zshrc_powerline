@@ -123,10 +123,19 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# Babak's Aliases
-# git
+# git aliases
 alias gx='git log --graph --decorate --oneline'
-# docker
+
+# Docker aliases
 alias du='docker-compose up'
 alias dd='docker-compose down'
 alias dc='docker-compose'
+
+# Postgres aliases
+alias pg_start="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
+alias pg_stop="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
+
+# Updates and Cleanup!
+brew doctor
+brew update
+brew cleanup

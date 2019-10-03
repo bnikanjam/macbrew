@@ -16,6 +16,7 @@ brew install tree
 
 # Install MacOS Applications
 brew cask install docker
+brew install postgresql
 brew tap heroku/brew && brew install heroku
 brew cask install google-chrome
 brew cask install firefox
