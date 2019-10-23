@@ -20,6 +20,7 @@ brew install postgresql
 brew tap heroku/brew && brew install heroku
 brew cask install google-chrome
 brew cask install firefox
+brew install geckodriver
 brew cask install visual-studio-code
 brew cask install pycharm
 brew cask install dropbox
