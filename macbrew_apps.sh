@@ -12,6 +12,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 
 # Install Brew Packages
 brew install tree
+brew install httpie
 
 
 # Install MacOS Applications
@@ -20,11 +21,11 @@ brew install postgresql
 brew tap heroku/brew && brew install heroku
 brew cask install google-chrome
 brew cask install firefox
+brew install geckodriver
 brew cask install visual-studio-code
 brew cask install pycharm
 brew cask install dropbox
 brew cask install virtualbox
 brew cask install brave-browser
-
 
 brew cleanup
