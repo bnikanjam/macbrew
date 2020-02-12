@@ -13,6 +13,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 # Install Brew Packages
 brew install tree
 brew install httpie
+brew install hugo
 
 
 # Install MacOS Applications
